@@ -4,7 +4,7 @@
 ![locates](./documentation/ResumeLogo.png)
 
 An easy way to **build** you own personal web resume! 💪
-### [Check the Demo 💾](https://ivangreve.com/)
+### [Check the Demo 💾](https://mobasmaji.com/)
 
 ## Pre-Requisites 
 
@@ -31,7 +31,7 @@ An easy way to **build** you own personal web resume! 💪
 ### Languages Files 🌍
 **English**: `./locales/en.json`
 
-**Spanish** `./locales/es.json`
+**German** `./locales/de.json`
 
 ### Add new Language
 1) **Create** a new language file in the folder `./locales` :
@@ -39,13 +39,13 @@ An easy way to **build** you own personal web resume! 💪
 2) **Change** **i18n** configuration in the ***nuxt.config.js***, 
 ```javascript
 i18n: {
-	locales: ['en', 'es', 'fr'],
+	locales: ['en', 'de', 'fr'],
 	defaultLocale:  'en',
 	vueI18n: {
 		fallbackLocale:  'en',
 		messages: {
 			en:  require('./locales/en.json'),
-			es:  require('./locales/es.json'),
+			de:  require('./locales/de.json'),
 			fr:  require('./locales/fr.json')
 		}
 	}
@@ -55,7 +55,7 @@ i18n: {
 ```html
 <div>
 	<nuxt-link class="btn btn-light" :to="switchLocalePath('en')">EN</nuxt-link>
-	<nuxt-link class="btn btn-light" :to="switchLocalePath('es')">ES</nuxt-link>
+	<nuxt-link class="btn btn-light" :to="switchLocalePath('es')">DE</nuxt-link>
 	<nuxt-link class="btn btn-light" :to="switchLocalePath('fr')">FR</nuxt-link>
 </div>
 ```
