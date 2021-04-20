@@ -1,0 +1,105 @@
+{
+  "links": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "interests": "Interests",
+    "projects": "Projects"
+  },
+  "personalInfo": {
+    "name": "Mohamad",
+    "lastName": "Basmaji",
+    "subHeadingText": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "Code enthusiast!"
+    ],
+    "city": "Karlsruhe, Germany",
+    "phoneNumber": "+49-15730672685",
+    "email": "contact@mobasmaji.com - m.basmaji23@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mohamad-basmaji-56339319a/",
+    "github": "https://github.com/mobasmaji/",
+    "myDescription": "Passionate web developer, making useful application using the latest technologies!"
+  },
+  "educationDegrees": {
+    "title": "Education 📕",
+    "degrees": [
+      {
+        "collage": "Karlsruher Institut für Technologie",
+        "name": "Informatik",
+        "itemList": ["Computer Science"],
+        "startEndDate": "October 2017 - April 2021"
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Work Expecience 🔨",
+    "works": [
+      {
+        "position": "Software Engineer / FullStack Developer",
+        "companie": "WebMotion",
+        "responsabilities": [
+          "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies",
+          "Backend Developer: Typescript | NodeJs | MSSQL | PostgreSQL | MongoDB.",
+          "Frontend Developer: Typescript | ReactJs | Javascript | JQuery."
+        ],
+        "startEndDate": "August 2020 - Present"
+      },
+      {
+        "position": "Frontend Developer",
+        "companie": "KIT",
+        "responsabilities": [
+          "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies",
+          "Frontend Developer: Typescript | VueJs."
+        ],
+        "startEndDate": "September 2018 - July 2020"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills 🎯",
+    "iconsTitle": "Programming Languages & Tools",
+    "devIcons": [
+      "devicon-csharp-plain",
+      "devicon-javascript-plain",
+      "devicon-html5-plain-wordmark",
+      "devicon-css3-plain-wordmark",
+      "devicon-git-plain",
+      "devicon-nodejs-plain",
+      "devicon-bootstrap-plain",
+      "devicon-github-original",
+      "devicon-jquery-plain-wordmark",
+      "devicon-linux-plain",
+      "devicon-react-original",
+      "devicon-visualstudio-plain",
+      "devicon-vuejs-plain",
+      "devicon-postgresql-plain"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "Responsive Design & UX",
+      "Cross Browser Testing & Debugging",
+      "REST API building",
+      "Agile Development & Scrum",
+      "Team working",
+      "Design Patterns"
+    ]
+  },
+  "interests": {
+    "title": "Hobbies 😄",
+    "firstBlock": "Apart from being a web developer, I enjoy listening and playing music. 🎹🎵",
+    "secondBlock": "I spend a large amount of my free time exploring the latest technolgy advancements in the frontend and backend web technology development world and coding in my personal projects! 🙌👨‍💻. I also like Jogging and exercise daily."
+  },
+  "projects": {
+    "title": "Personal Projects 🦾🧠",
+    "projectsInfo": [
+      {
+        "name": "Coming soon",
+        "description": "-",
+        "image": "-",
+        "siteUrl": "-"
+      }
+    ]
+  }
+}
